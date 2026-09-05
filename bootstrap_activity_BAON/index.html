@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevCore BAON</title>
+
+  <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body id="home">
+
+  <nav class="navbar navbar-expand-lg bg-light border-bottom sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="#home">
+        <i class="bi bi-code-slash"></i> DevCore BAON
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn btn-outline-secondary ms-2" id="themeBtn">Dark Mode</button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="py-5 text-center bg-light">
+    <div class="container py-5">
+      <span class="badge bg-primary fs-6 mb-3">Welcome to My Website</span>
+      <h1 class="display-4 fw-bold">Build Faster with DevCore</h1>
+      <p class="lead text-secondary">A simple landing page created for our web development laboratory activity.</p>
+      <a href="#pricing" class="btn btn-primary btn-lg me-2">Get Started</a>
+      <a href="#features" class="btn btn-outline-secondary btn-lg">Learn More</a>
+    </div>
+  </header>
+
+  <section id="features" class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Features</h2>
+      <div class="row">
+        
+        <div class="col-md-4 mb-3">
+          <div class="card text-center p-3 h-100">
+            <i class="bi bi-lightning-charge text-primary display-4"></i>
+            <h4 class="mt-2">Fast Speed</h4>
+            <p class="text-secondary">Loads quickly and works smoothly on browsers.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card text-center p-3 h-100">
+            <i class="bi bi-shield-check text-success display-4"></i>
+            <h4 class="mt-2">Safe & Secure</h4>
+            <p class="text-secondary">Keeps your personal data safe and protected.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card text-center p-3 h-100">
+            <i class="bi bi-phone text-warning display-4"></i>
+            <h4 class="mt-2">Mobile Friendly</h4>
+            <p class="text-secondary">Looks great on smartphones, tablets, and computers.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Pricing Plans</h2>
+      <div class="row">
+
+        <div class="col-md-4 mb-3">
+          <div class="card p-3 text-center h-100">
+            <h4>Starter</h4>
+            <h2 class="my-3">$19<small class="fs-6 text-secondary">/mo</small></h2>
+            <p>1 Project</p>
+            <p>5GB Storage</p>
+            <p>Free Support</p>
+            <button class="btn btn-outline-primary mt-auto">Choose Plan</button>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card p-3 text-center border-primary h-100">
+            <span class="badge bg-primary mb-2">Popular</span>
+            <h4>Pro</h4>
+            <h2 class="my-3">$49<small class="fs-6 text-secondary">/mo</small></h2>
+            <p>10 Projects</p>
+            <p>50GB Storage</p>
+            <p>Priority Support</p>
+            <button class="btn btn-primary mt-auto">Choose Plan</button>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card p-3 text-center h-100">
+            <h4>Enterprise</h4>
+            <h2 class="my-3">$129<small class="fs-6 text-secondary">/mo</small></h2>
+            <p>Unlimited Projects</p>
+            <p>500GB Storage</p>
+            <p>24/7 Support</p>
+            <button class="btn btn-outline-primary mt-auto">Choose Plan</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Testimonials</h2>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p class="fs-5">"This is a great starting template for learning Bootstrap 5!"</p>
+            <p class="fw-bold">- Aeron Baon</p>
+          </div>
+          <div class="carousel-item">
+            <p class="fs-5">"Easy to understand, customize, and submit for class assignments."</p>
+            <p class="fw-bold">- Maria Santos</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-secondary rounded"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-secondary rounded"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5 bg-light">
+    <div class="container" style="max-width: 600px;">
+      <h2 class="text-center fw-bold mb-4">Contact Us</h2>
+      <form id="contactForm">
+        <div class="mb-3">
+          <label for="fullName" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+        </div>
+        <div class="mb-3">
+          <label for="emailAddress" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="emailAddress" placeholder="Enter your email" required>
+        </div>
+        <div class="mb-3">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="Enter subject" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Type your message here..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="py-3 text-center border-top">
+    <p class="mb-0">&copy; 2026 BAON. All rights reserved.</p>
+  </footer>
+
+  <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    var themeBtn = document.getElementById('themeBtn');
+    
+    themeBtn.addEventListener('click', function() {
+      var currentTheme = document.documentElement.getAttribute('data-bs-theme');
+      
+      if (currentTheme === 'light') {
+        document.documentElement.setAttribute('data-bs-theme', 'dark');
+        themeBtn.innerText = 'Light Mode';
+      } else {
+        document.documentElement.setAttribute('data-bs-theme', 'light');
+        themeBtn.innerText = 'Dark Mode';
+      }
+    });
+
+    var contactForm = document.getElementById('contactForm');
+
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      var name = document.getElementById('fullName').value;
+      var email = document.getElementById('emailAddress').value;
+      var subject = document.getElementById('subject').value;
+      var message = document.getElementById('message').value;
+
+      if (name == '' || email == '' || subject == '' || message == '') {
+        Swal.fire('Error', 'Please fill in all fields!', 'error');
+      } else {
+        Swal.fire('Success', 'Your message has been sent!', 'success');
+        contactForm.reset();
+      }
+    });
+  </script>
+</body>
+</html>
